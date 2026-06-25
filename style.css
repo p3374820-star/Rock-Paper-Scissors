@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(241, 233, 241);
+}
+*{
+    padding: 0%;
+    margin: 0;
+    text-align: center;
+}
+h1{
+    justify-content: center;
+    color: rgb(229, 219, 219);
+    background-color: #081b31;
+    line-height: 5rem;
+    
+}
+.choice{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display:flex;
+}
+
+.choice:hover{
+    background-color: black;
+    cursor:pointer;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.score-board{
+    justify-content: center;
+    margin-bottom: 5rem;
+    align-items: center;
+}
+.scope{
+    justify-content: center;
+    margin-bottom: 5rem;
+}
