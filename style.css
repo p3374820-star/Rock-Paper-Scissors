@@ -39,10 +39,32 @@ img{
 }
 .score-board{
     justify-content: center;
-    margin-bottom: 5rem;
+    dispaly-items:flex;
     align-items: center;
+    font-size:2rem;
+    margin-top:3rem;
+    gap:5rem;
 }
 .scope{
     justify-content: center;
     margin-bottom: 5rem;
+}
+#user-score{
+    font-size:4
+}
+#comp-score{
+    font-size:4
+}
+.msg-container{
+    margin-top:5rem;
+}
+#msg{
+    margin-top:5rem;
+    background-color:black;
+    color:white;
+    font-size:2rem;
+    display:inline;
+    gap:2rem;
+    paddding:1rem;
+    border-radius:1rem;
 }
